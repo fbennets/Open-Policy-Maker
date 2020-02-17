@@ -1,3 +1,7 @@
 {
-  "root": "public_html/"
+  "root": "",
+  "routes": {
+   "/vendor/*": "/vendor/",
+   "/**": "index.html"
+ }
 }
