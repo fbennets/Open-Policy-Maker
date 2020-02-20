@@ -20,9 +20,6 @@
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
-  <!-- Plugin CSS -->
-  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
-
   <!-- Custom styles for this template -->
   <link href="css/new-age.css" rel="stylesheet">
 
@@ -44,7 +41,10 @@
             <a class="nav-link js-scroll-trigger" href="#einleitung">Einleitung</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#download">Über uns</a>
+            <a class="nav-link js-scroll-trigger" href="#generator">Generator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#guides">Guides</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
@@ -57,27 +57,23 @@
   <header class="masthead">
     <div class="container h-100">
       <div class="row h-100">
-        <div class="col-lg-7 my-auto">
+        <div class="col-lg-5 my-auto">
           <div class="header-content mx-auto">
             <h1 class="mb-5">Open Policy Maker - Wir helfen Euch, freie Lernmaterialien einzusetzen!</h1>
-            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Los gehts!</a>
+            <a href="#einleitung" class="btn btn-outline btn-xl js-scroll-trigger">Los gehts!</a>
           </div>
         </div>
-        <div class="col-lg-5 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait black">
-              <div class="device">
-                <div id="od-demo" class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <!-- <img src="img/demo-screen-1.jpg" class="img-fluid" alt=""> -->
+        <div class="col-lg-7 my-auto">
+          <img src="img/teaching.svg" class="img-fluid" alt="">
+        </div>
+        <!-- <div id="board" class="col-lg-7 my-auto">
+            <div id="inner-board">
+                <div id="od-demo">
                 </div>
                 <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </header>
@@ -90,9 +86,11 @@
         <hr>
       </div>
       <div class="row">
-        <div class="col-lg-4 my-auto">
+        <!-- <div class="col-lg-4 my-auto">
           <div class="device-container">
-            <!-- <div class="device-mockup iphone6_plus portrait white">
+            <img src="img/help.svg" class="img-fluid" alt="">
+
+            <div class="device-mockup iphone6_plus portrait white">
               <div class="device">
                 <div class="screen">
                   <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
@@ -100,20 +98,27 @@
                 <div class="button">
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
-        </div>
-        <div class="col-lg-8 my-auto">
+        </div> -->
+        <div class="col-lg-12 my-auto">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-4">
                 <div class="feature-item">
                   <i class="icon-screen-smartphone text-primary"></i>
                   <h3>Schritt 1</h3>
                   <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-4">
+                <div class="feature-item">
+                  <i class="icon-camera text-primary"></i>
+                  <h3>Schritt 2</h3>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
                 <div class="feature-item">
                   <i class="icon-camera text-primary"></i>
                   <h3>Schritt 2</h3>
@@ -122,14 +127,21 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-4">
                 <div class="feature-item">
                   <i class="icon-present text-primary"></i>
                   <h3>Schritt 3</h3>
                   <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-4">
+                <div class="feature-item">
+                  <i class="icon-lock-open text-primary"></i>
+                  <h3>Schritt 4</h3>
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
                 <div class="feature-item">
                   <i class="icon-lock-open text-primary"></i>
                   <h3>Schritt 4</h3>
@@ -143,12 +155,20 @@
     </div>
   </section>
 
-  <section class="download bg-primary text-center" id="download">
+  <section class="download bg-primary text-center" id="generator">
+    <div class="container">
+      <h2>Open Policy Generator</h2>
+      <div id="od-demo">
+      </div>
+    </div>
+  </section>
+
+  <section class="download text-center" id="guides">
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
           <h2 class="section-heading">Hier geht es zu unseren ausführlichen Guides</h2>
-          <a href="https://fbennet.uber.space/shelves/open-policy-maker" target="_blank" class="btn btn-outline btn-xl js-scroll-trigger">Zu den Guides</a>
+          <a href="https://fbennet.uber.space/shelves/open-policy-maker" target="_blank" id="orange" class="btn btn-outline btn-xl js-scroll-trigger">Zu den Guides</a>
         </div>
       </div>
     </div>
@@ -165,7 +185,7 @@
     <div class="overlay"></div>
   </section> -->
 
-  <section class="contact" id="contact">
+  <section class="contact bg-primary" id="contact">
     <div class="container">
       <h2>Wir würden es
         <i class="fas fa-heart"></i>
@@ -238,7 +258,7 @@ This work is published from:
   <!-- Open Decision Scripts -->
   <script type="text/javascript" src="vendor/open-decision/logic.js"></script>
   <script type="text/javascript" src="vendor/open-decision/od-js-interpreter.js"></script>
-  <script type="text/javascript" src="vendor/open-decision/rucklastschriftgebuhren-15.js"></script>
+  <script type="text/javascript" src="vendor/open-decision/open-policy-generator.js"></script>
 
 <script type="text/javascript">
 
