@@ -449,3 +449,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 #orange {
   background-color: #f1951d;
 }
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
